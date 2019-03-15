@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+   <LinearLayout
+       android:id="@+id/LLLpadre"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical">
+
+       <LinearLayout
+           android:id="@+id/LLLrojo"
+           android:layout_width="match_parent"
+           android:layout_height="0dp"
+           android:layout_weight="1"
+           android:background="#ff0000"
+           android:orientation="horizontal" ></LinearLayout>
+       <LinearLayout
+           android:id="@+id/lllverde"
+           android:layout_width="match_parent"
+           android:layout_height="0dp"
+           android:layout_weight="1"
+           android:background="#00ff00"
+           android:orientation="horizontal" ></LinearLayout>
+
+       <LinearLayout
+           android:id="@+id/lllazul"
+           android:layout_width="match_parent"
+           android:layout_height="0dp"
+           android:layout_weight="1"
+           android:background="#0000ff"
+           android:orientation="horizontal" ></LinearLayout>
+
+   </LinearLayout>
+</android.support.constraint.ConstraintLayout>
